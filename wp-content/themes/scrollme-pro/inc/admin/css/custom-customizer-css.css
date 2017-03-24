@@ -1,0 +1,92 @@
+/** Customizer Exclude Catgory **/
+.ex-cat-wrap {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ex-cat-wrap .chk-group {
+    width: 50%;
+}
+
+.ex-cat-wrap .chk-group.left {
+    float: left;
+}
+
+.ex-cat-wrap .chk-group.right {
+    float: right;
+}
+
+/** Home Section Reorder **/
+#tm-sections-reorder {
+    border: 1px solid #D6D6D6;
+    padding: 10px;
+    background: #FFF;
+}
+
+#tm-sections-reorder .tm-section-element {
+    border: 1px solid #BCBCBC;
+    padding: 5px;
+    cursor: move;
+    background: white;
+}
+
+.tm-section-element i {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
+/** Preloader **/
+span.cmizer-preloader {
+    width: 60px;
+    display: block;
+    float: left;
+    padding: 10px;
+    background: #FFFFFF;
+    height: 72px;
+    margin: 1px;
+    text-align: center;
+    border: 2px solid #C5C5C5;
+}
+
+span.cmizer-preloader:hover, span.cmizer-preloader.active {
+    border-color: #9A9A9A;
+}
+
+#ui-datepicker-div{
+    z-index: 999999 !important;
+}
+
+/** Demo Import **/
+.demo-loading{
+    background-image: url('images/demoload.GIF');
+    width: 64px;
+    height: 64px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+a#demo_import {
+    background: #3498DB;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 1px solid #1C72AC;
+}
+
+a#demo_import:hover {
+    color: #EEEEEE;
+}
+
+.import-message, .import-msg {
+    margin-top: 10px;
+    border: 1px solid #BEBEBE;
+    padding: 10px;
+    text-indent: 20px;
+}
+
+.import-success{
+    color: green;
+    font-weight: bold;
+}

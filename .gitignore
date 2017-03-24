@@ -1,0 +1,16 @@
+#ignore everything but wp-content and git ignore
+/*
+!.gitignore
+!wp-content/
+
+#Ignore everything in wp-content except themes
+wp-content/*
+!wp-content/uploads/
+!wp-content/themes/
+
+#Ignore everything in wp-content/themes except project theme
+!wp-content/themes/*
+!wp-content/themes/Divi/
+
+#Ignore node_modules in project theme
+!wp-content/themes/Divi/node_modules/*

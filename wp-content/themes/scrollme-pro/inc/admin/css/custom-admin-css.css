@@ -1,0 +1,121 @@
+/**
+* Custom Backend Admin Style Codes
+*/
+
+.mta-scme-slink label{ width: 120px; display: inline-block;}
+.mta-scme-desgn h2{ font-size: 20px; line-height: 22px; font-weight: bold;}
+
+.mta-scme-skill label{ width: 120px; display: inline-block;}
+#poststuff .scme_meta_head {
+ font-weight: normal;
+ position: relative;
+ font-size: 17px;
+ padding: 8px 0 10px;
+}
+#poststuff .scme_meta_head:after{
+	 height: 2px; width: 100%; background: #eee;
+	 bottom: 20px;
+
+}
+
+#poststuff .mta-scme-port-details-heading {
+ font-weight: normal;
+ position: relative;
+ font-size: 17px;
+ padding: 8px 0;
+}
+.revslider_settings .setting_text{ margin-bottom: 25px;}
+#poststuff .scme_meta_head:after{
+	position: absolute;
+	content: ""; 
+	left: 0; 
+	right: 0; 
+	height: 1px; 
+	/*background: #eee; */
+	bottom: 0;
+}
+.mta-scme-port_fields label{width: 120px; display: inline-block;}
+.mta-scme-port_details label{width: 120px; display: inline-block; float: left;}
+.mta-scme-port_details textarea{ display: block; width: 100%; max-width: 320px; height: 100px; margin-top: 20px}
+
+/** Gallery Post Meta Options **/
+.sme_galimg_ctrl {
+    position: relative;
+}
+
+.scme_prev_gal {
+    border: 1px solid #DDDDDD;
+    display: block;
+    left: 45px;
+    padding: 4px;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    display: none;
+}
+
+.scme_prev_gal img{
+	width: 200px;
+	height: auto;
+}
+
+.compdesing-meta-wrap{ display: block;}
+
+.compdesing-meta-wrap p label{ 
+	width: 120px; 
+	float: left; 
+	display: inline-block;
+}
+
+/* gallery */
+.sme_galimg_ctrl{ float: right; top: 4px;}
+.sme_galimg_ctrl a{ 
+ display: inline-block;
+ margin:0 3px; 
+ background: #f1f1f1; 
+ padding: 2px 4px;
+ border-radius:2px;
+	}
+
+ol.scme_add_galimg li{ margin:10px 0px;}
+ol.scme_add_galimg li input[type="text"]{ width: 35%;}
+ol.scme_add_galimg li input{ border-radius:3px; padding: 4px;}
+
+.scme_add_img{
+
+ background: #0073AA;
+ padding: 8px 15px; 
+ display: inline-block; 
+ text-decoration: none;
+ border-radius:3px;
+ color: #fff;
+
+}
+
+
+.inside .scme_add_img{ margin:20px 0;}
+.mta-scme-desgn, .mta-scme-slink, .mta-scme-skill{ 
+	background: #f3f3f3; padding: 10px; margin-bottom: 12px;
+}
+.mta-scme-desgn{ margin-top: 12px;}
+.mta-scme-desgn input[type="text"]{ width: 50%;}
+.mta-scme-slink input[type="text"]{ width: 50%;}
+.mta-scme-skill input[type="text"]{ width: 50%;}
+.mta-scme-skill input[type="number"]{ width: 50px;}
+.compdesing-meta-wrap input[type="text"]{ width: 50%;}
+
+.mta-scme-port_fields, .mta-scme-port_details{
+	background: #f3f3f3; padding: 10px; margin-bottom: 12px;
+}
+
+.mta-scme-port-details-heading:after{ 
+	width: 100%;
+	display: block; 
+	height: 1px; 
+	background: #e1e1e1;
+	position: absolute;
+	bottom: 3px;
+	content: "";
+	}
+
+.mta-scme-port_fields input[type="text"]{ width: 30%; padding: 4px; border-radius:3px;}

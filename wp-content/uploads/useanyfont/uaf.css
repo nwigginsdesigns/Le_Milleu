@@ -1,0 +1,28 @@
+			@font-face {
+				font-family: 'anatalia-caps';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/170215011938Anatalia-Caps.eot');
+				src: local('anatalia-caps'), url('/wp-content/uploads/useanyfont/170215011938Anatalia-Caps.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/170215011938Anatalia-Caps.woff') format('woff');
+			}
+            
+            .anatalia-caps{font-family: 'anatalia-caps' !important;}
+            
+						.todays-hours{
+					font-family: 'anatalia-caps' !important;
+				}
+						.menu-text{
+					font-family: 'anatalia-caps' !important;
+				}
+						.amantic-gallery{
+					font-family: 'anatalia-caps' !important;
+				}
+						.monthly-events{
+					font-family: 'anatalia-caps' !important;
+				}
+						.location-header{
+					font-family: 'anatalia-caps' !important;
+				}
+						.aboutus-title{
+					font-family: 'anatalia-caps' !important;
+				}
+		

@@ -1,0 +1,10 @@
+			@font-face {
+				font-family: 'anatalia-caps';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/170215011938Anatalia-Caps.eot');
+				src: local('anatalia-caps'), url('/wp-content/uploads/useanyfont/170215011938Anatalia-Caps.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/170215011938Anatalia-Caps.woff') format('woff');
+			}
+            
+            .et_gf_anatalia-caps{background:none !important;font-family:anatalia-caps;text-indent:0 !important;font-size:25px;}
+            
+		
